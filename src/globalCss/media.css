@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+  .topbar-left {
+    width: 52%;
+  }
+  .topbar-right {
+    width: 42%;
+  }
+  .inbox-form-item-input {
+    width: 80%;
+  }
+  .contact-introduction {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .topbar-link {
+    font-size: 16px;
+    padding: 5px;
+    width: 80px;
+  }
+  .topbar-logo {
+    margin-right: 10px;
+  }
+  .impact-div {
+    width: 80%;
+  }
+  .inbox-form {
+    width: 80%;
+  }
+  .events-introduction-title {
+    left: 380px;
+  }
+  .events-sec {
+    width: 95%;
+  }
+  .event-acticle {
+    width: 95%;
+  }
+  .event-img-div {
+    width: 40%;
+  }
+  .intro-content {
+    top: 100px;
+  }
+  .intro-title {
+    font-size: 40px;
+  }
+  .intro-text {
+    font-size: 20px;
+  }
+  .contact-introduction {
+    height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .impact-div {
+    width: 90%;
+  }
+  .help-div {
+    justify-content: center;
+    gap: 40px;
+  }
+  .stories-div {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inbox-form-item {
+    width: 100%;
+    margin-left: 0;
+  }
+  .inbox-form-item-input {
+    width: 90%;
+  }
+  .inbox-form-button {
+    margin-left: 0;
+  }
+  .home-introduction {
+    background-size: cover;
+  }
+  .home-introduction-title {
+    left: 10px;
+    font-size: 40px;
+  }
+  .home-introduction-text {
+    left: 10px;
+    font-size: 20px;
+    width: 400px;
+  }
+  .events-introduction-title {
+    font-size: 40px;
+    left: 250px;
+  }
+  .about-impact-content {
+    margin-right: 20px;
+  }
+  .about-impact-img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .impact-div-item-title {
+    font-size: 20px;
+  }
+  .impact-div-item-text {
+    font-size: 16px;
+  }
+  .foot-contact {
+    width: 80%;
+  }
+  .foot-contact2-icon {
+    font-size: 20px;
+  }
+  .foot-contact2-text {
+    font-size: 16px;
+  }
+  .home-introduction-title {
+    top: 160px;
+  }
+  .home-introduction-text {
+    top: 170px;
+  }
+  .home-introduction {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+  .events-introduction-title {
+    left: 150px;
+    top: 50px;
+  }
+  .events-introduction {
+    background-size: contain;
+    height: 25vh;
+  }
+  .form-button {
+    width: 30%;
+  }
+  .intro-content {
+    top: 80px;
+    left: 40px;
+  }
+  .intro-title {
+    font-size: 30px;
+  }
+  .intro-text {
+    font-size: 16px;
+  }
+  .about-impact {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-impact-img {
+    width: 80%;
+  }
+  .about-impact-content {
+    width: 80%;
+  }
+  .about-infos {
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    gap: 20px;
+  }
+  .about-infos-item:nth-child(2) {
+    border: none;
+  }
+  .contact-introduction {
+    height: 150px;
+  }
+  .event-content-div {
+    height: 90%;
+  }
+}

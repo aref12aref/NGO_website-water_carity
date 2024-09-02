@@ -1,0 +1,69 @@
+.program-main {
+  position: relative;
+}
+
+.programs {
+  background-image: url("../../assets/program_background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: -40px;
+  padding-bottom: 20px;
+}
+
+.programs-title {
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  top: 40px;
+  color: rgb(0, 187, 255);
+}
+
+.programs-sec {
+  width: 90%;
+  margin: 200px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.program-acticle {
+  width: 400px;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.888);
+  box-shadow: 0 0 10px 1px gray;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.program-title {
+  color: rgb(0, 187, 255);
+  text-align: center;
+}
+
+.program-img {
+  width: 100%;
+  height: 70%;
+}
+
+.program-button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgb(0, 187, 255);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.program-button:hover {
+  background-color: rgb(0, 129, 176);
+}

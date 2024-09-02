@@ -1,0 +1,259 @@
+.home-main {
+  position: relative;
+}
+
+.home-introduction {
+  background-image: linear-gradient(to bottom, transparent 88%, white),
+    url("../../assets/home_banner.jpg");
+  height: 89vh;
+  margin-bottom: 30px;
+}
+
+.home-introduction-title {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  font-size: 60px;
+  color: white;
+}
+
+.home-introduction-text {
+  position: relative;
+  top: 220px;
+  left: 100px;
+  font-size: 40px;
+  width: 700px;
+  color: white;
+}
+
+.impact,
+.help {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.impact-title,
+.help-title,
+.inbox-title {
+  color: rgb(0, 187, 255);
+}
+
+.impact-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.impact-div-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.impact-div-item-title,
+.help-div-item-title {
+  font-size: 30px;
+}
+
+.impact-div-item-text,
+.help-div-item-text {
+  font-size: 20px;
+}
+
+.help-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.help-div-item {
+  width: 260px;
+  height: 180px;
+  background-color: white;
+  box-shadow: 0 0 10px 2px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.help-div-item-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.help-div-item-content:hover::before {
+  animation: animate 0.5s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: black;
+  }
+  100% {
+    width: 99%;
+    height: 99%;
+    border-top-color: black;
+    border-right-color: black;
+  }
+}
+
+.help-div-item-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.help-div-item-content:hover::after {
+  animation: animate2 0.5s linear forwards;
+}
+
+@keyframes animate2 {
+  0% {
+    width: 0;
+    height: 0;
+    border-left-color: black;
+  }
+  100% {
+    width: 99%;
+    height: 99%;
+    border-left-color: black;
+    border-bottom-color: black;
+  }
+}
+
+.stories {
+  background-color: rgb(0, 187, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.stories-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.stories-div-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.stories-div-item-img {
+  width: 300px;
+  height: 200px;
+}
+
+.stories-div-item-button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 151);
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.stories-div-item-button:hover {
+  border: 2px solid rgb(0, 0, 151);
+  letter-spacing: 2px;
+}
+
+.inbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.inbox-form {
+  background-image: url("../../assets/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 0 0 10px 2px gray;
+  padding: 20px;
+  width: 60%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inbox-form-item {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: flex-start;
+  margin-left: 350px;
+  gap: 5px;
+}
+
+.inbox-form-item-label {
+  font-size: 20px;
+}
+
+.inbox-form-item-input {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.inbox-form-button {
+  margin-left: 350px;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgb(0, 187, 255);
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.inbox-form-button:hover {
+  background-color: rgb(0, 149, 203);
+}

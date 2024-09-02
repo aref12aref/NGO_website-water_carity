@@ -1,0 +1,197 @@
+.donate-main {
+  text-align: center;
+  position: relative;
+}
+
+.donate-main-text {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.donate-title {
+  color: rgb(0, 187, 255);
+  font-size: 50px;
+}
+
+.donate-subtitle {
+  font-size: 20px;
+}
+
+.donate-form {
+  width: 80%;
+  margin: 20px auto 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px 2px gray;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.amount-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.amount-button {
+  background-color: rgb(142, 225, 255);
+  width: 80px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+.amount-button:hover {
+  border: 1px solid gray;
+  scale: 1.03;
+}
+
+.amount-button:active {
+  background-color: rgb(0, 129, 176);
+}
+
+.custom-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px auto;
+  width: 350px;
+  border: 2px solid gray;
+  height: 30px;
+}
+
+.custom-amount-d,
+.custom-amount-usd {
+  text-align: center;
+  height: 30px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.custom-amount-d {
+  border-right: 1px solid gray;
+}
+
+.custom-amount-usd {
+  border-left: 1px solid gray;
+}
+.custom-amount-inp {
+  border: none;
+  height: 30px;
+  outline: none;
+  font-size: 20px;
+}
+
+.frequency-container {
+  margin: 15px 0;
+}
+
+.frequency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 350px;
+}
+
+.frequency-item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.method {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.method-buttons {
+  margin: 10px 0;
+}
+
+.method-button {
+  background-color: rgb(142, 225, 255);
+  width: 100px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card {
+  background-color: rgb(142, 225, 255);
+  padding: 25px;
+  border: 2px gray solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5px;
+  margin: 20px auto;
+}
+
+.card-inp {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(88, 88, 88);
+}
+
+.personal-inputs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.personal-inputs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 350px;
+  flex-grow: 1;
+}
+
+.personal-input {
+  width: 100%;
+  height: 30px;
+  padding: 3px 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(63, 116, 136, 0.776) inset;
+  transition: 0.5s;
+}
+
+.personal-input:focus {
+  scale: 1.03;
+  outline: rgb(0, 187, 255) 1px solid;
+}
+
+.form-button {
+  width: 15%;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgb(0, 187, 255);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form-button:hover {
+  background-color: rgb(0, 157, 214);
+  color: white;
+}
